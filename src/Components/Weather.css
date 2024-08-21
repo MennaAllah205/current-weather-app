@@ -1,0 +1,104 @@
+/* Weather.css */
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #2f4680, #500ae4);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center align text and icons */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px; /* Space below the search bar */
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+  }
+  
+  .search-bar img {
+    width: 50px;
+    padding: 15px;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .weather-icon {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin: 20px 0; /* Space above and below the icon */
+  }
+  
+  .temperature {
+    font-size: 70px; /* Large font size for temperature */
+    line-height: 1;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Font family for consistency */
+    font-weight: bold; /* Make the temperature text bold */
+    margin: 10px 0; /* Space above and below temperature */
+  }
+  
+  .location {
+    font-size: 40px; /* Font size for location */
+    color: #fff; /* Text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font family for consistency */
+    font-weight: 300; /* Lighter font weight for the location */
+    letter-spacing: 1px; /* Add space between letters */
+    margin-bottom: 30px; /* Space below location */
+  }
+  
+  .weather-data {
+    display: flex;
+    justify-content: space-between; /* Space out the weather data columns */
+    width: 100%; /* Full width of the container */
+    margin-top: 20px; /* Space above weather data section */
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    flex-direction: row; /* Align items horizontally */
+  }
+  
+  .col + .col {
+    margin-left: 20px; /* Space between columns */
+  }
+  
+  .data-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+  }
+  
+  .data-text {
+    display: flex;
+    flex-direction: column; /* Stack text and span vertically */
+    align-items: center; /* Center align text and span */
+  }
+  
+  .data-text p {
+    font-size: 24px; /* Font size for data values */
+    margin: 0; /* Remove margin */
+    color: #fff; /* Text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font family for consistency */
+  }
+  
+  .data-text span {
+    font-size: 16px; /* Font size for labels */
+    color: #ccc; /* Light color for labels */
+    font-family: 'Arial', sans-serif; /* Font family for consistency */
+  }
+  
